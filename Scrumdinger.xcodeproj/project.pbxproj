@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C19D44C82EB3406600771580 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = C19D44C72EB3406600771580 /* ThemeKit */; };
+		E98EF2342EB8987600136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF2332EB8987600136FF9 /* TimerKit */; };
+		E98EF2372EB8991800136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF2362EB8991800136FF9 /* TimerKit */; };
+		E98EF23A2EB899B300136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF2392EB899B300136FF9 /* TimerKit */; };
+		E98EF23C2EB89A0D00136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF23B2EB89A0D00136FF9 /* TimerKit */; };
 		E9E36F102EB63168009880B1 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9E36F0F2EB63168009880B1 /* TimerKit */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +32,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98EF23A2EB899B300136FF9 /* TimerKit in Frameworks */,
+				E98EF2342EB8987600136FF9 /* TimerKit in Frameworks */,
+				E98EF2372EB8991800136FF9 /* TimerKit in Frameworks */,
+				E98EF23C2EB89A0D00136FF9 /* TimerKit in Frameworks */,
 				C19D44C82EB3406600771580 /* ThemeKit in Frameworks */,
 				E9E36F102EB63168009880B1 /* TimerKit in Frameworks */,
 			);
@@ -74,6 +82,10 @@
 			packageProductDependencies = (
 				C19D44C72EB3406600771580 /* ThemeKit */,
 				E9E36F0F2EB63168009880B1 /* TimerKit */,
+				E98EF2332EB8987600136FF9 /* TimerKit */,
+				E98EF2362EB8991800136FF9 /* TimerKit */,
+				E98EF2392EB899B300136FF9 /* TimerKit */,
+				E98EF23B2EB89A0D00136FF9 /* TimerKit */,
 			);
 			productName = Scrumdinger;
 			productReference = C19E0F6B2EB249C000669440 /* Scrumdinger.app */;
@@ -105,7 +117,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				C19D44C62EB3406600771580 /* XCLocalSwiftPackageReference "ThemeKit" */,
-				E9E36F0E2EB63168009880B1 /* XCLocalSwiftPackageReference "../../../Downloader/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit" */,
+				E98EF2382EB899B300136FF9 /* XCLocalSwiftPackageReference "TimerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C19E0F6C2EB249C000669440 /* Products */;
@@ -347,9 +359,9 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ThemeKit;
 		};
-		E9E36F0E2EB63168009880B1 /* XCLocalSwiftPackageReference "../../../Downloader/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit" */ = {
+		E98EF2382EB899B300136FF9 /* XCLocalSwiftPackageReference "TimerKit" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../Downloader/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit;
+			relativePath = TimerKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -357,6 +369,22 @@
 		C19D44C72EB3406600771580 /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
+		};
+		E98EF2332EB8987600136FF9 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
+		};
+		E98EF2362EB8991800136FF9 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
+		};
+		E98EF2392EB899B300136FF9 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
+		};
+		E98EF23B2EB89A0D00136FF9 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
 		};
 		E9E36F0F2EB63168009880B1 /* TimerKit */ = {
 			isa = XCSwiftPackageProductDependency;
