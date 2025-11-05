@@ -16,5 +16,7 @@ struct ScrumdingerApp: App {
             ScrumsView()
         }
         .modelContainer(for: DailyScrum.self)
+        // error test:
+//        .modelContainer(try! .init(for: DailyScrum.self, migrationPlan: .none, configurations: .init(allowsSave: false)))
     }
 }
