@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108096422EBDC9E000B9CD43 /* TranscriptionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 108096412EBDC9E000B9CD43 /* TranscriptionKit */; };
 		C19D44C82EB3406600771580 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = C19D44C72EB3406600771580 /* ThemeKit */; };
 		E98EF2342EB8987600136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF2332EB8987600136FF9 /* TimerKit */; };
 		E98EF2372EB8991800136FF9 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98EF2362EB8991800136FF9 /* TimerKit */; };
@@ -19,9 +20,22 @@
 		C19E0F6B2EB249C000669440 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1080963F2EBDC7C200B9CD43 /* Exceptions for "Scrumdinger" folder in "Scrumdinger" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C19E0F6A2EB249C000669440 /* Scrumdinger */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C19E0F6D2EB249C000669440 /* Scrumdinger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1080963F2EBDC7C200B9CD43 /* Exceptions for "Scrumdinger" folder in "Scrumdinger" target */,
+			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
@@ -33,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98EF23A2EB899B300136FF9 /* TimerKit in Frameworks */,
+				108096422EBDC9E000B9CD43 /* TranscriptionKit in Frameworks */,
 				E98EF2342EB8987600136FF9 /* TimerKit in Frameworks */,
 				E98EF2372EB8991800136FF9 /* TimerKit in Frameworks */,
 				E98EF23C2EB89A0D00136FF9 /* TimerKit in Frameworks */,
@@ -86,6 +101,7 @@
 				E98EF2362EB8991800136FF9 /* TimerKit */,
 				E98EF2392EB899B300136FF9 /* TimerKit */,
 				E98EF23B2EB89A0D00136FF9 /* TimerKit */,
+				108096412EBDC9E000B9CD43 /* TranscriptionKit */,
 			);
 			productName = Scrumdinger;
 			productReference = C19E0F6B2EB249C000669440 /* Scrumdinger.app */;
@@ -118,6 +134,7 @@
 			packageReferences = (
 				C19D44C62EB3406600771580 /* XCLocalSwiftPackageReference "ThemeKit" */,
 				E98EF2382EB899B300136FF9 /* XCLocalSwiftPackageReference "TimerKit" */,
+				108096402EBDC9E000B9CD43 /* XCLocalSwiftPackageReference "TranscriptionKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C19E0F6C2EB249C000669440 /* Products */;
@@ -278,6 +295,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +329,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,6 +378,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		108096402EBDC9E000B9CD43 /* XCLocalSwiftPackageReference "TranscriptionKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TranscriptionKit;
+		};
 		C19D44C62EB3406600771580 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ThemeKit;
@@ -366,6 +393,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		108096412EBDC9E000B9CD43 /* TranscriptionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TranscriptionKit;
+		};
 		C19D44C72EB3406600771580 /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
